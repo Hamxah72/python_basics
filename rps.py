@@ -1,5 +1,4 @@
 
-
 import sys
 import random
 from enum import Enum
@@ -83,7 +82,6 @@ def rps():
     return play_rps
 
 
-play = rps
+play = rps()
 
 play()
-
